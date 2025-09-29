@@ -7,6 +7,13 @@ header
     height: 200px;
     margin-bottom: 10px;
 }
+.container
+{
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav
 {
     width: 10%;
@@ -28,6 +35,8 @@ article
     max-width: 700px;
     height: 950px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer
 {
