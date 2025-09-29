@@ -1,6 +1,10 @@
 header, nav, section, article, footer {
     border: 1px dashed red;
 }
+body
+{
+    background-image: url('../images/carbon.png');
+}
 header
 {
     width: 100%;
@@ -21,6 +25,26 @@ nav
     height: 1100px;
     float: left;
     margin: 0 30px 0 30px;
+}
+#banner-content
+{
+    text-align: center;
+}
+#banner-content a
+{
+    text-decoration: none;
+    color: orange;
+}
+#banner-content a:hover
+{
+    text-decoration: underline;
+}
+#logo
+{
+    float: left;
+    width: 210px;
+    height: 170px;
+    margin: 5px 0 5px 10px;
 }
 section
 {
